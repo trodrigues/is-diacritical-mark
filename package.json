@@ -1,0 +1,24 @@
+{
+  "name": "is-diacritical-mark",
+  "version": "0.0.1",
+  "description": "Checks if a character is a diacritical mark",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trodrigues/is-diacritical-mark.git"
+  },
+  "keywords": [
+    "diacritics",
+    "diacritical",
+    "accent",
+    "accented"
+  ],
+  "author": "Tiago Rodrigues",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/trodrigues/is-diacritical-mark/issues"
+  }
+}
