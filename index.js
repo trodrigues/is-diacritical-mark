@@ -10,17 +10,13 @@ var charCodeList = diacriticsMap.map(function (val) {
   return val.code;
 });
 
-var charList = diacriticsMap.map(function (val) {
-  return val.character;
-});
+function fromCode(val){
+  return charCodeList.indexOf(val) > -1;
+}
 
-function isDiacriticCode(val){
+function fromChar(val){
   return charCodeList.indexOf(val.charCodeAt(val)) > -1;
 }
 
-function isDiacriticCharacter(val){
-  return charList.indexOf(val.charCodeAt(val)) > -1;
-}
-
-module.exports.isDiacriticCode = isDiacriticCode;
-module.exports.isDiacriticCharacter = isDiacriticCharacter;
+module.exports.fromCode = fromCode;
+module.exports.fromChar = fromChar;
