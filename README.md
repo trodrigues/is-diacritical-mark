@@ -15,10 +15,14 @@ The following accents are detected:
 ´
 ```
 
-## fromCode
+## Install
+
+`npm install is-diacritical-mark`
+
+## fromCode(code)
 
 Takes a [charCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) and returns true if the code for the character matches.
 
-## fromChar
+## fromChar(char)
 
 Takes a character and returns true if the character matches.
