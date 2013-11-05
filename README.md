@@ -17,7 +17,7 @@ The following accents are detected:
 
 ## fromCode
 
-Takes a (charCode)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode] and returns true if the code for the character matches.
+Takes a [charCode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) and returns true if the code for the character matches.
 
 ## fromChar
 
