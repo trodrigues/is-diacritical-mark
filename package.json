@@ -4,7 +4,7 @@
   "description": "Checks if a character is a diacritical mark",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
