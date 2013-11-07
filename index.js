@@ -11,11 +11,11 @@ var charCodeList = diacriticsMap.map(function (val) {
 });
 
 function fromCode(val){
-  return charCodeList.indexOf(val) > -1;
+  return val && charCodeList.indexOf(val) > -1;
 }
 
 function fromChar(val){
-  return charCodeList.indexOf(val.charCodeAt(val)) > -1;
+  return val && charCodeList.indexOf(val.charCodeAt(val)) > -1;
 }
 
 module.exports.fromCode = fromCode;
