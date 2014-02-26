@@ -15,7 +15,7 @@ function fromCode(val){
 }
 
 function fromChar(val){
-  return val && charCodeList.indexOf(val.charCodeAt(val)) > -1;
+  return val && charCodeList.indexOf(val.charCodeAt(0)) > -1;
 }
 
 module.exports.fromCode = fromCode;
